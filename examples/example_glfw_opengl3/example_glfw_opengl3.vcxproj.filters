@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{20b90ce4-7fcb-4731-b9a0-075f875de82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{f18ab499-84e1-499f-8eff-9754361e0e52}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="sources\FakeEngine">
+      <UniqueIdentifier>{d9a1dcb6-c0e2-4a9f-b62a-acfe50615be1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_glfw.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_opengl3.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_glfw.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_opengl3.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_opengl3_loader.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Component.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentManager.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Hierarchy.h">
+      <Filter>sources\FakeEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="fragment.glsl" />
+    <None Include="vetex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="wall.jpg" />
+    <Image Include="awesomeface.png" />
+  </ItemGroup>
+</Project>
